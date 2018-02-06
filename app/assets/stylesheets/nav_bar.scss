@@ -1,3 +1,18 @@
 .nav-bar {
-    background: blue;
+    background: grey;
+    width: 100%;
+    color: whitesmoke;
+
+    li {
+        &:hover {
+            background: #ffd507;
+            color: black;
+            transition: 0.2s ease;
+            cursor: pointer;
+        }
+        display: inline-block;
+        float: left;
+        list-style: none;
+        padding: 10px 25px;
+    }
 }
