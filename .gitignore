@@ -23,4 +23,5 @@
 .byebug_history
 
 # Ignore bundles
-*bundle
+*bundle.js
+*bundle.js.map
