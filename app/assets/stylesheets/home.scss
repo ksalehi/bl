@@ -9,19 +9,21 @@
     margin-bottom: 10px;
 }
 
+.carousel {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
 .hero-img-container {
     width: 1280px;
-    height: 400px;
+    height: 550px;
+    overflow: hidden;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 
 .hero-img {
-    width: 1280px;
-    height: 100%;
-    background: url('jellyfish.jpg');
-    background-size: cover;
-    background-position: center;
-    margin-left: -15px;
-    margin-right: -15px;
+    width: 100%;
 }
 
 .button {
