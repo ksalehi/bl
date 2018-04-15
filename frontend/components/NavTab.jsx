@@ -1,13 +1,22 @@
 import React from 'react';
 
 class NavTab extends React.PureComponent {
+    constructor(props) {
+        super(props);
+    }
+
     render() {
+        let className = 'bl-nav-tab';
+        if (this.props.isActive) {
+            className += ' active';
+        }
+        
         return (
-            <li
-                onClick={this.props.onClick}
-                className={this.props.isActive ? 'active' : ''}>
-                {this.props.title}
-            </li>
+            <a href={this.props.link}>
+                <li className={className}>
+                    {this.props.title}
+                </li>
+            </a>
         );
     }
 }
