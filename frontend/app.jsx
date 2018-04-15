@@ -7,18 +7,22 @@ import Homepage from './components/Homepage.jsx';
 import AboutUs from './components/AboutUs.jsx';
 
 $(document).ready(function () {
-    console.log('path: ', window.location.pathname);
+    ReactDOM.render(
+        <NavBar />,
+        document.getElementById('nav-bar-container')
+    );
+
     switch (window.location.pathname) {
         case '/':
             ReactDOM.render(
                 <Homepage />,
-                document.getElementById('nav-bar-container')
+                document.getElementById('home')
             );
             break;
         case '/about-us':
             ReactDOM.render(
                 <AboutUs />,
-                document.getElementById('nav-bar-container')
+                document.getElementById('about-us')
             );
             break;
         default:
@@ -32,7 +36,7 @@ $(document).ready(function () {
         infinite: true,
         arrows: false,
         dots: false,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 3000,
     });
 
