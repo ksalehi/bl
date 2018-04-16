@@ -10,7 +10,7 @@ class NavTab extends React.PureComponent {
         if (this.props.isActive) {
             className += ' active';
         }
-        
+
         return (
             <a href={this.props.link}>
                 <li className={className}>

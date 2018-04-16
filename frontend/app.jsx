@@ -25,9 +25,6 @@ $(document).ready(function () {
                 document.getElementById('about-us')
             );
             break;
-        default:
-            console.log('Page Not Found');
-            break;
     }
 
     $('.carousel').slick({

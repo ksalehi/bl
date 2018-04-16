@@ -9,7 +9,7 @@ class NavBar extends React.PureComponent {
         super(props);
          this.tabs = [
             {
-                title: 'HOME',
+                title: 'Home',
                 link: '/'
             },
             {
@@ -21,17 +21,17 @@ class NavBar extends React.PureComponent {
                 options: [
                     {
                         title: 'Workshops',
-                        link: '/workshops'
+                        link: '/research/workshops'
                     },
                     {
                         title: 'Emissaries',
-                        link: '/emissaries'
+                        link: '/research/emissaries'
                     }
                 ]
             },
             {
                 title: 'Learn How: We Will Help',
-                link: '/learn-bl'
+                link: '/learn'
             },
             {
                 title: 'About our Hub',
@@ -39,11 +39,37 @@ class NavBar extends React.PureComponent {
             },
             {
                 title: 'Symposium',
-                link: '/symposium'
+                options: [
+                    {
+                        title: 'Schedule',
+                        link: '/symposium/schedule'
+                    },
+                    {
+                        title: 'Register',
+                        link: '/symposium/register'
+                    },
+                    {
+                        title: 'Poster Guidelines',
+                        link: '/symposium/poster-guidlines'
+                    },
+                ]
             },
             {
                 title: 'MBL Practicum',
-                link: '/mbl'
+                options: [
+                    {
+                        title: 'About',
+                        link: '/mbl/about'
+                    },
+                    {
+                        title: '2018 Practicum',
+                        link: '/mbl/2018-practicum'
+                    },
+                    {
+                        title: 'Apply',
+                        link: '/mbl/apply'
+                    },
+                ]
             },
             {
                 title: 'Curricula',
