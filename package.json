@@ -30,7 +30,7 @@
   "devDependencies": {},
   "scripts": {
     "postinstall": "webpack",
-    "start": "node app.jsx"
+    "start": "node application.js"
   },
   "repository": {
     "type": "git",
