@@ -29,7 +29,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "postinstall": "webpack"
+    "postinstall": "webpack",
+    "start": "node app.jsx"
   },
   "repository": {
     "type": "git",
