@@ -31,6 +31,7 @@
   "devDependencies": {},
   "scripts": {
     "postinstall": "webpack",
+    "heroku-postbuild": "npm install",
     "start": "node ./client/app.jsx"
   },
   "repository": {
