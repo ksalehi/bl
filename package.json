@@ -9,7 +9,7 @@
     "test": "test"
   },
   "dependencies": {
-    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^6.4.1",
     "babel-preset-env": "^1.6.1",
@@ -21,7 +21,6 @@
     "react": "^15.2.1",
     "react-dom": "^15.2.1",
     "react-modal": "^1.4.0",
-    "react-quill": "^0.4.1",
     "react-router": "^2.6.0",
     "react-tap-event-plugin": "^1.0.0",
     "webpack": "^1.13.1"
