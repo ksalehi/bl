@@ -17,6 +17,7 @@
     "babel-preset-react": "^6.11.1",
     "babel-runtime": "^6.26.0",
     "jquery": "^3.0.0",
+    "node": "^9.11.0",
     "npm": "^5.8.0",
     "react": "^15.2.1",
     "react-dom": "^15.2.1",
@@ -29,7 +30,7 @@
   "scripts": {
     "postinstall": "webpack",
     "heroku-postbuild": "npm install",
-    "start": "node ./client/app.jsx"
+    "start": "bundle exec rails server"
   },
   "repository": {
     "type": "git",
