@@ -29,7 +29,6 @@
   "devDependencies": {},
   "scripts": {
     "postinstall": "webpack",
-    "heroku-postbuild": "npm install",
     "start": "ruby ./config/application.rb"
   },
   "repository": {
