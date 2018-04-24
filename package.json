@@ -30,7 +30,7 @@
   "scripts": {
     "postinstall": "webpack",
     "heroku-postbuild": "npm install",
-    "start": "bundle exec rails server"
+    "start": "ruby ./config/application.rb"
   },
   "repository": {
     "type": "git",
