@@ -34,11 +34,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ksalehi/Capstone-Project.git"
+    "url": "git+https://github.com/ksalehi/bl.git"
   },
   "engines": {
-    "node": "6.1.0",
-    "npm": "3.8.6"
+    "node": "9.11.1",
+    "npm": "5.6.0"
   },
   "keywords": [],
   "author": "",
