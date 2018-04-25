@@ -24,6 +24,7 @@
     "react-modal": "^1.4.0",
     "react-router": "^2.6.0",
     "react-tap-event-plugin": "^1.0.0",
+    "slick-carousel": "^1.8.1",
     "webpack": "^1.13.1"
   },
   "devDependencies": {},
