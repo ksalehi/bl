@@ -1,12 +1,13 @@
 'use strict';
 
-import React from 'react';
-import ReactDOM from 'react-dom';
-import NavBar from './components/NavBar.jsx';
-import Homepage from './components/Homepage.jsx';
-import AboutUs from './components/AboutUs.jsx';
+var React = require('react');
+var ReactDOM = require('react-dom');
+var NavBar = require('./components/NavBar.jsx');
+var Homepage = require('./components/Homepage.jsx');
+var AboutUs = require('./components/AboutUs.jsx');
 
 $(document).ready(function () {
+    console.log('--------------------------document ready');
     ReactDOM.render(
         <NavBar />,
         document.getElementById('nav-bar-container')
