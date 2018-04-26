@@ -7,6 +7,7 @@ import Homepage from './components/Homepage.jsx';
 import AboutUs from './components/AboutUs.jsx';
 
 $(document).ready(function () {
+    console.log('--------other---------');
     ReactDOM.render(
         <NavBar />,
         document.getElementById('nav-bar-container')

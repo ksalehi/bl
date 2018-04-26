@@ -30,7 +30,7 @@
   "devDependencies": {},
   "scripts": {
     "postinstall": "webpack",
-    "start": "ruby ./config/application.rb"
+    "start": "ruby bin/rails"
   },
   "repository": {
     "type": "git",
