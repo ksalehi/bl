@@ -13,11 +13,11 @@ class NavBar extends React.PureComponent {
                 link: '/'
             },
             {
-                title: 'BioLogy: BL in Nature',
+                title: 'BL in Nature',
                 link: '/bl-in-nature'
             },
             {
-                title: 'Why BL for your Research?',
+                title: 'Why Use BL?',
                 options: [
                     {
                         title: 'Workshops',
@@ -30,11 +30,11 @@ class NavBar extends React.PureComponent {
                 ]
             },
             {
-                title: 'Learn How: We Will Help',
+                title: 'Learn How',
                 link: '/learn'
             },
             {
-                title: 'About our Hub',
+                title: 'About Our Hub',
                 link: '/about-us'
             },
             {
