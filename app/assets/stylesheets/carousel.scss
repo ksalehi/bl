@@ -1,0 +1,23 @@
+@import 'reset';
+
+.carousel {
+    position: relative;
+    height: 500px;
+    background: black;
+    margin-right: -15px;
+    margin-left: -15px;
+
+    .hero-img-container {
+        height: 550px;
+        overflow: hidden;
+        position: absolute;
+        z-index: 0;
+        opacity: 0;
+        transition: 1s ease-out;
+
+        &.current {
+            opacity: 1;
+            z-index: 1;
+        }
+    }
+}

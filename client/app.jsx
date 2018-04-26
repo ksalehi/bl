@@ -26,15 +26,4 @@ $(document).ready(function () {
             );
             break;
     }
-
-    $('.carousel').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true,
-        arrows: false,
-        dots: false,
-        autoplay: true,
-        autoplaySpeed: 3000,
-    });
-
 });
